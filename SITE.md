@@ -1,6 +1,6 @@
-# CAP200 : landing page et design proposé
+# Capose : site web (capose.net)
 
-`index.html` présente l’application. `design.html` est un prototype visuel interactif, distinct de l’application native ; il n’effectue aucun achat.
+`index.html` présente l’application Capose, avec des captures réelles de l’app dans `assets/`. `support.html`, `privacy.html` et `terms.html` sont les pages légales liées depuis l’App Store. Le domaine est capose.net ; cap200.net redirige vers lui (règle de redirection Cloudflare).
 
 Un projet Sites privé a été enregistré : `appgprj_6ab19ac159008191a2565d83b7ce617a`. Aucune version n’a été déployée, l’outil Sites ayant été retiré de l’environnement pendant la tâche. Si Sites est reconnecté, réutiliser cet identifiant, sans créer un autre projet.
 
