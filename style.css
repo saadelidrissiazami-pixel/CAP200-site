@@ -101,6 +101,11 @@ h2{font-size:clamp(34px,7vw,56px)}
 @keyframes leave{from{opacity:0;transform:translate(var(--x,0),var(--y,0))}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.motif .arc,.motif .dot{animation:none}}
 
+/* Social links under the closing call to action. */
+.social{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.social a{padding:8px 16px;border-radius:99px;border:1.5px solid var(--line);background:var(--card);color:var(--action);font-weight:600;font-size:14px}
+.social a:hover{border-color:var(--action)}
+
 @media(min-width:760px){
   .wrap{width:min(1180px,100% - 64px)}
   .nav nav{display:flex}
